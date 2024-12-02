@@ -1,0 +1,82 @@
+/* Estilo global */
+body {
+    color: white;
+    background: black;
+    margin: 0;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+    text-align: center;
+}
+
+/* Estilo da seção chamada */
+.chamada {
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+    max-width: 300px;
+}
+
+.chamada iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo dos títulos e parágrafos */
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+/* Estilo da seção de categorias */
+.categoria {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
+    text-align: center;
+}
+
+/* Estilo dos vídeos na categoria */
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+    cursor: pointer;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.categoria-videos img:hover {
+    opacity: 1;
+    border: 3px solid green;
+    transform: scale(1.05);
+}
